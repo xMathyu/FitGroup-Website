@@ -47,7 +47,7 @@
                 
                 <i class='bx bx-search'></i>
 
-                <a href="#" class="button button__header">¡Inicia Ya!</a>
+                <a href="#" class="button button__header" id="myBtn2">Iniciar sesión</a>
                 
             </nav>
         </header>
@@ -62,11 +62,79 @@
                         <h1 class="home__title">Ejercítate 👋 <br> Mantente sano</h1>
                         <p class="home__description">Los mejores ejercicios para ti, gracias a nuestra Inteligencia Artificial <b>"Fitcito"🤖</b>.</p>
 
-                        <a href="#" class="button">Iniciar</a>
+                        <!-- <button class="button" id="myBtn">Registrarse</a></button> -->
+                        <a href="#" class="button" id="myBtn">Iniciar</a>
 
                     </div>   
                 </div>
             </section>
+
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <form action="/action_page.php">
+                    <div class="container">
+                      <h1>Registrar</h1>
+                      <p>Por favor, complete este formulario para crear una cuenta.</p>
+                      <hr>
+                  
+                      <label for="email"><b>Correo</b></label>
+                      <input type="text" placeholder="Ingrese Email" name="email" id="email" required>
+                  
+                      <label for="psw"><b>Contraseña</b></label>
+                      <input type="password" placeholder="Ingrese contraseña" name="psw" id="psw" required>
+                  
+                      <label for="psw-repeat"><b>Repetir Contraseña</b></label>
+                      <input type="password" placeholder="Repita contraseña" name="psw-repeat" id="psw-repeat" required>
+                      <hr>
+                      <p>Al crearte una cuenta aceptas nuestros <a href="#">Terminos & Privacidad</a>.</p>
+                  
+                      <button type="submit" class="registerbtn">Registrar</button>
+                    </div>
+                    
+                    <div class="container signin">
+                      <p>¿Ya tienes una cuenta? <a href="#">Iniciar sesión</a>.</p>
+                    </div>
+                  </form>
+                </div>
+              
+            </div>
+
+            <div id="myModal2" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <form action="/action_page.php">
+                    <div class="container">
+                      <h1>Registrar</h1>
+                      <p>Por favor, complete este formulario para crear una cuenta.</p>
+                      <hr>
+                  
+                      <label for="email"><b>Correo</b></label>
+                      <input type="text" placeholder="Ingrese Email" name="email" id="email" required>
+                  
+                      <label for="psw"><b>Contraseña</b></label>
+                      <input type="password" placeholder="Ingrese contraseña" name="psw" id="psw" required>
+                  
+                      <label for="psw-repeat"><b>Repetir Contraseña</b></label>
+                      <input type="password" placeholder="Repita contraseña" name="psw-repeat" id="psw-repeat" required>
+                      <hr>
+                      <p>Al crearte una cuenta aceptas nuestros <a href="#">Terminos & Privacidad</a>.</p>
+                  
+                      <button type="submit" class="registerbtn">Registrar</button>
+                    </div>
+                    
+                    <div class="container signin">
+                      <p>¿Ya tienes una cuenta? <a href="#">Iniciar sesión</a>.</p>
+                    </div>
+                  </form>
+                </div>
+              
+            </div>
+              
 
             <!--=============== ABOUT ===============-->
             <section class="about section container" id="about">
@@ -251,6 +319,14 @@
                     </div>
                 </div>
             </section>
+
+            <!-- ============== LO QUE ME PIDA ================ -->
+
+            <section class="section container">
+
+            </section>
+
+
 
             <!--=============== APP ===============-->
             <section class="app section container">
