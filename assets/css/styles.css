@@ -209,6 +209,10 @@ body.dark-theme {
   cursor: pointer;
 }
 
+.bx {
+  cursor: pointer;
+}
+
 /* Show menu */
 .show-menu {
   top: calc(var(--header-height) + 1rem);
