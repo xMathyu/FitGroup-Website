@@ -163,7 +163,7 @@ body.dark-theme {
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  background-color: var(--container-color);
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
