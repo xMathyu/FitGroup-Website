@@ -1,2 +1,3 @@
 # FitGroup-Website
- IHC Website LadingPage
+ IHC Website LandingPage 
+ Grupo 3 | SI42
